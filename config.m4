@@ -1,4 +1,4 @@
-AC_DEFUN([PHP_ADD_EXAMPLES],[
+([PHP_ADD_EXAMPLES],[
 	cat >>Makefile.global<<EOF
 install-examples:
 	\$(mkinstalldirs) $1/examples/
